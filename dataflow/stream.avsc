@@ -1,0 +1,12 @@
+{"namespace": "austin.web3",
+ "type": "record",
+ "name": "Swaps",
+ "fields": [
+     {"name": "usdc_amount", "type": "float"},
+     {"name": "eth_amount",  "type": "float"},
+     {"name": "wallet", "type": "string"},
+     {"name": "block", "type": "int"},
+     {"name": "txn_hash", "type": "string"},
+     {"name": "eth_price", "type": "float"}
+ ]
+}
